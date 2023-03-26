@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-      <Route path="/" element={<Home/>}></Route>
+      <Route path="/BrewMix.github.io" element={<Home/>}></Route>
       <Route path="/Machines" element={<Machines/>}></Route>
       <Route path="/LoginPage" element={<LoginPage/>}></Route>
       <Route path='*' element={<ProtectedRoutes/>} />
